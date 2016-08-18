@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/jquery.fullpage.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<div id="fullpage">
+		<!-- section 0 -->
+		<div class="section" id="section0">
+			<!-- 头像 -->
+			<canvas id="canvas"></canvas>
+			<div class="profileImage">
+				<div class="boxF">
+        			<div class="boxS">
+            			<div class="boxT">
+            			</div>
+        			</div>
+    			</div>
+			</div>
+			<div class="layer">
+				<h2>周余飞</h2>
+				<p>PERSONAL RESUME</p>
+				<div><i class="fa fa-angle-down fa-2x" aria-hidden="true"></i></div>
+			</div>
+		</div>
+
+		<!-- section1 -->
+		<div class="section" id="section1">
+			<div id="rotate" class="rotate">
+				<div class="squre_zone">
+					<div class="squre"></div>
+				</div>
+			</div>
+			<div class="card card_front" id="card">
+				<div class="card_wrap">
+					<div class="side side_front">
+						<div class="person_info">
+							<div class="one">
+								<div>
+									<p class="grey"><i  class="fa fa-user" aria-hidden="true"></i> Name</p>
+									<p>姓名 : 周余飞</p>
+								</div>
+								<div>
+									<p class="grey"><i class="fa fa-venus-mars" aria-hidden="true"></i> Gender</p>
+									<p>性别 : 男</p>
+								</div>
+								<div>
+									<p class="grey"><i class="fa fa-houzz" aria-hidden="true"" aria-hidden="true"></i> School</p>
+									<p>毕业院校 : 天津理工大学</p>
+								</div>
+								<div>
+									<p class="grey"><i class="fa fa-graduation-cap"></i> Education background</p>
+									<p>学历 : 硕士</p>
+								</div>
+								<div>
+									<p class="grey"><i class="fa fa-book" aria-hidden="true"></i> Major</p>
+									<p>专业 : 电子信息工程与光学工程</p>
+								</div>
+								<div>
+									<p class="grey"><i class="fa fa-heart" aria-hidden="true"></i> hobbies</p>
+									<p>爱好 : 编程、读书、运动、健身</p>
+								</div>
+							</div>
+							<div class="two">
+								<p>
+									英语：六级<br/>
+									计算机相关课程：C语言、8086计算机原理、算法与数据结构等<br/>
+									语言学习经历：2014年以前，主要学习并使用C语言，期间接触过部分java, python的基础知识。2014年至今，一直学习学习web前端技术。热爱开源项目，乐于分享。熟悉主流的web前端框架，对新技术有着执着的追求。<br/><br>
+									<p style="font-size:12px; color:rgba(255,255,255,.5);">更多内容请翻转到背面 >></p>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="side side_back">
+						<div id="chart"></div>
+						<div class="back_info">
+								<h4>html+css</h4>
+								<p>熟悉W3C标准,熟练使用html和CSS制作符合标准的Web页面。了解H5和CSS3的各项新特性，熟悉less。</p>
+								<h4>Javascript</h4>
+								<p>熟悉原生javascript和jquery，了解部分ES6的新增内容，CSDN文章《ES6解构赋值》。</p>
+								<h4>NodeJs</h4>
+								<p>掌握Node.js核心概念，能够使用Nodejs+Express+MongoDB构建简单的网站服务端功能。如：路由控制，注册，登录，登出，后台联系等</p>
+								<h4>Canvas</h4>
+								<p>熟悉大部分canvasAPI，结合 webAudio 和 webRTC 等新特性，能够做出很多绚丽的效果，segmentFault周更文章——《每周一点canvas动画》。</p>
+								<h4>webGL</h4>
+								<p>在webGL方面，对第三方库three.js使用的比较多。但是，对原生webGL还未进行深入的了解。</p>
+								<h4>vueJS</h4>
+								<p>熟悉vuejs，能够使用vue编写SPA应用。了解Angular的基础知识。</p>
+								<h4>其他</h4>
+								<p>第三方框架：bootstrap、、seaJS、webpack等</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section 2 -->
+		<div class="section" id="section2">
+			<div class="slide" id="slide1">
+				<h1>纯 HTML+CSS3 编写的 Loading 动画</h1>
+				<p>纯 html 和 css3 写的 loading 动画。目前已有31个，还在持续更新中，主要应用 css3 的帧动画技术 | <a href="https://github.com/supperjet/Loading_effect" target="blank">Github 地址</a></p>
+				<div class="item item1"></div>
+			</div>
+			<div class="slide" id="slide2">
+				<h1>基于Express的Nodejs网站</h1>
+				<p>采用express框架，ejs模板引擎。集成路由切换、登录、注册、邮件联系、mongoDB数据库等功能 | <a href="https://github.com/supperjet/node-express-web-" target="blank">Github 地址</a></p>
+				<div class="item item2"></div>
+			</div>
+			<div class="slide" id="slide3">
+				<h1>音乐可视化</h1>
+				<p>Nodejs作为服务端，通过webAudio读取音乐文件，解析为音频数据，通过Canvas动态绘制图形 | <a href="https://github.com/supperjet/musi" target="blank">Github 地址</a></p>
+				<div class="item item3"></div>
+			</div>
+			<div class="slide" id="slide4">
+				<h1>文字粒子</h1>
+				<p>根据输入框的内容，通过粒子来动态绘制文字内容 | <a href="https://github.com/supperjet/text-particles" target="blank">Github 地址</a></p>
+				<div class="item item4"></div>
+			</div>
+			<div class="slide" id="slide5">
+				<h1>canvas小游戏</h1>
+				<p>原生canvas制作的小游戏 | <a href="https://github.com/supperjet/tinyHeart" target="blank">Github 地址</a></p>
+				<div class="item item5"></div>
+			</div>
+		</div>
+		<div class="section" id="section3">
+			<video autoplay loop muted id="myVideo">
+				<source src="imgs/test.mp4" type="video/mp4">
+				<source src="imgs/test.mp4" type="video/webm">
+			</video>
+
+			<div class="connect">
+				<h1>Cool ohh!</h1>	
+				<p><a href="http://supperjet.github.io/" target="blank">个人博客地址</a></p>	
+				<p><a href="https://github.com/supperjet" target="blank">Github地址</a></p>
+				<p><a href="https://segmentfault.com/u/worengjiuzaizheli" target="blank">SegmentFault个人主页</a></p>
+				
+			</div>
+		</div>
+	</div>
+	
+	
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.bootcss.com/echarts/3.2.2/echarts.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+	<script type="text/javascript" src="https://use.fontawesome.com/ae8d93be6a.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/canvas.js"></script>
+</body>
+</html>
